@@ -13,25 +13,25 @@
 		22EB27C3252FBA0100996F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EB27C2252FBA0100996F13 /* Assets.xcassets */; };
 		22EB27C6252FBA0100996F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EB27C4252FBA0100996F13 /* LaunchScreen.storyboard */; };
 		22EB27CE252FBAB100996F13 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB27CD252FBAB100996F13 /* ListTableViewController.swift */; };
-		C4279D3128F793DC00F25369 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4279D3028F793DC00F25369 /* ShoppingItem.swift */; };
-		C435EB8628F784E600529434 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C435EB8528F784E600529434 /* GoogleService-Info.plist */; };
-		C435EB8928F7866600529434 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C435EB8828F7866600529434 /* FirebaseAnalyticsSwift */; };
-		C435EB8B28F7866600529434 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C435EB8A28F7866600529434 /* FirebaseAuth */; };
-		C435EB8D28F7866600529434 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C435EB8C28F7866600529434 /* FirebaseFirestoreSwift */; };
-		C435EB8F28F7866600529434 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C435EB8E28F7866600529434 /* FirebaseRemoteConfigSwift */; };
+		C4178C2528F8DDC4001A0C78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4178C2428F8DDC4001A0C78 /* GoogleService-Info.plist */; };
+		C4178C2A28F8E149001A0C78 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2928F8E149001A0C78 /* FirebaseAnalyticsSwift */; };
+		C4178C2C28F8E149001A0C78 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2B28F8E149001A0C78 /* FirebaseAuth */; };
+		C4178C2E28F8E149001A0C78 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2D28F8E149001A0C78 /* FirebaseFirestoreSwift */; };
+		C4178C3028F8E149001A0C78 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2F28F8E149001A0C78 /* FirebaseRemoteConfigSwift */; };
+		C4279D3128F793DC00F25369 /* DonationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4279D3028F793DC00F25369 /* DonationItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22EB27B6252FB9FD00996F13 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EB27B9252FB9FD00996F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EB27BD252FB9FD00996F13 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		22EB27C0252FB9FD00996F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22EB27C2252FBA0100996F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22EB27C5252FBA0100996F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		22EB27C7252FBA0100996F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22EB27CD252FBAB100996F13 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		C4279D3028F793DC00F25369 /* ShoppingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
-		C435EB8528F784E600529434 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4178C2428F8DDC4001A0C78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4279D3028F793DC00F25369 /* DonationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationItem.swift; sourceTree = "<group>"; };
+		C42AF17B28F8E38E00A96BC5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42AF17D28F8E3FF00A96BC5 /* JulioJacquelineMaxNeulerWanderson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JulioJacquelineMaxNeulerWanderson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +39,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C435EB8928F7866600529434 /* FirebaseAnalyticsSwift in Frameworks */,
-				C435EB8F28F7866600529434 /* FirebaseRemoteConfigSwift in Frameworks */,
-				C435EB8B28F7866600529434 /* FirebaseAuth in Frameworks */,
-				C435EB8D28F7866600529434 /* FirebaseFirestoreSwift in Frameworks */,
+				C4178C2A28F8E149001A0C78 /* FirebaseAnalyticsSwift in Frameworks */,
+				C4178C3028F8E149001A0C78 /* FirebaseRemoteConfigSwift in Frameworks */,
+				C4178C2C28F8E149001A0C78 /* FirebaseAuth in Frameworks */,
+				C4178C2E28F8E149001A0C78 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,20 +52,12 @@
 		22EB27AD252FB9FD00996F13 = {
 			isa = PBXGroup;
 			children = (
-				22EB27B8252FB9FD00996F13 /* ShoppingList */,
-				22EB27B7252FB9FD00996F13 /* Products */,
+				22EB27B8252FB9FD00996F13 /* JulioJacquelineMaxNeulerWanderson */,
+				C42AF17D28F8E3FF00A96BC5 /* JulioJacquelineMaxNeulerWanderson.app */,
 			);
 			sourceTree = "<group>";
 		};
-		22EB27B7252FB9FD00996F13 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				22EB27B6252FB9FD00996F13 /* ShoppingList.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		22EB27B8252FB9FD00996F13 /* ShoppingList */ = {
+		22EB27B8252FB9FD00996F13 /* JulioJacquelineMaxNeulerWanderson */ = {
 			isa = PBXGroup;
 			children = (
 				22EB27B9252FB9FD00996F13 /* AppDelegate.swift */,
@@ -74,19 +66,19 @@
 				22EB27BF252FB9FD00996F13 /* Main.storyboard */,
 				22EB27C2252FBA0100996F13 /* Assets.xcassets */,
 				22EB27C4252FBA0100996F13 /* LaunchScreen.storyboard */,
-				C4279D3028F793DC00F25369 /* ShoppingItem.swift */,
-				22EB27C7252FBA0100996F13 /* Info.plist */,
-				C435EB8528F784E600529434 /* GoogleService-Info.plist */,
+				C4279D3028F793DC00F25369 /* DonationItem.swift */,
+				C42AF17B28F8E38E00A96BC5 /* Info.plist */,
+				C4178C2428F8DDC4001A0C78 /* GoogleService-Info.plist */,
 			);
-			path = ShoppingList;
+			path = JulioJacquelineMaxNeulerWanderson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22EB27B5252FB9FD00996F13 /* ShoppingList */ = {
+		22EB27B5252FB9FD00996F13 /* JulioJacquelineMaxNeulerWanderson */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22EB27CA252FBA0100996F13 /* Build configuration list for PBXNativeTarget "ShoppingList" */;
+			buildConfigurationList = 22EB27CA252FBA0100996F13 /* Build configuration list for PBXNativeTarget "JulioJacquelineMaxNeulerWanderson" */;
 			buildPhases = (
 				22EB27B2252FB9FD00996F13 /* Sources */,
 				22EB27B3252FB9FD00996F13 /* Frameworks */,
@@ -96,15 +88,15 @@
 			);
 			dependencies = (
 			);
-			name = ShoppingList;
+			name = JulioJacquelineMaxNeulerWanderson;
 			packageProductDependencies = (
-				C435EB8828F7866600529434 /* FirebaseAnalyticsSwift */,
-				C435EB8A28F7866600529434 /* FirebaseAuth */,
-				C435EB8C28F7866600529434 /* FirebaseFirestoreSwift */,
-				C435EB8E28F7866600529434 /* FirebaseRemoteConfigSwift */,
+				C4178C2928F8E149001A0C78 /* FirebaseAnalyticsSwift */,
+				C4178C2B28F8E149001A0C78 /* FirebaseAuth */,
+				C4178C2D28F8E149001A0C78 /* FirebaseFirestoreSwift */,
+				C4178C2F28F8E149001A0C78 /* FirebaseRemoteConfigSwift */,
 			);
 			productName = ShoppingList;
-			productReference = 22EB27B6252FB9FD00996F13 /* ShoppingList.app */;
+			productReference = C42AF17D28F8E3FF00A96BC5 /* JulioJacquelineMaxNeulerWanderson.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 22EB27B1252FB9FD00996F13 /* Build configuration list for PBXProject "ShoppingList" */;
+			buildConfigurationList = 22EB27B1252FB9FD00996F13 /* Build configuration list for PBXProject "JulioJacquelineMaxNeulerWanderson" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,11 +126,11 @@
 			packageReferences = (
 				C435EB8728F7866600529434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
-			productRefGroup = 22EB27B7252FB9FD00996F13 /* Products */;
+			productRefGroup = 22EB27AD252FB9FD00996F13;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22EB27B5252FB9FD00996F13 /* ShoppingList */,
+				22EB27B5252FB9FD00996F13 /* JulioJacquelineMaxNeulerWanderson */,
 			);
 		};
 /* End PBXProject section */
@@ -149,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EB27C6252FBA0100996F13 /* LaunchScreen.storyboard in Resources */,
-				C435EB8628F784E600529434 /* GoogleService-Info.plist in Resources */,
+				C4178C2528F8DDC4001A0C78 /* GoogleService-Info.plist in Resources */,
 				22EB27C3252FBA0100996F13 /* Assets.xcassets in Resources */,
 				22EB27C1252FB9FD00996F13 /* Main.storyboard in Resources */,
 			);
@@ -162,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4279D3128F793DC00F25369 /* ShoppingItem.swift in Sources */,
+				C4279D3128F793DC00F25369 /* DonationItem.swift in Sources */,
 				22EB27BE252FB9FD00996F13 /* LoginViewController.swift in Sources */,
 				22EB27CE252FBAB100996F13 /* ListTableViewController.swift in Sources */,
 				22EB27BA252FB9FD00996F13 /* AppDelegate.swift in Sources */,
@@ -312,12 +304,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ShoppingList/Info.plist;
+				INFOPLIST_FILE = JulioJacquelineMaxNeulerWanderson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.ShoppingList;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.JulioJacquelineMaxNeulerWanderson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,12 +321,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ShoppingList/Info.plist;
+				INFOPLIST_FILE = JulioJacquelineMaxNeulerWanderson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.ShoppingList;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.JulioJacquelineMaxNeulerWanderson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22EB27B1252FB9FD00996F13 /* Build configuration list for PBXProject "ShoppingList" */ = {
+		22EB27B1252FB9FD00996F13 /* Build configuration list for PBXProject "JulioJacquelineMaxNeulerWanderson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22EB27C8252FBA0100996F13 /* Debug */,
@@ -353,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22EB27CA252FBA0100996F13 /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
+		22EB27CA252FBA0100996F13 /* Build configuration list for PBXNativeTarget "JulioJacquelineMaxNeulerWanderson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22EB27CB252FBA0100996F13 /* Debug */,
@@ -376,22 +368,22 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C435EB8828F7866600529434 /* FirebaseAnalyticsSwift */ = {
+		C4178C2928F8E149001A0C78 /* FirebaseAnalyticsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C435EB8728F7866600529434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsSwift;
 		};
-		C435EB8A28F7866600529434 /* FirebaseAuth */ = {
+		C4178C2B28F8E149001A0C78 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C435EB8728F7866600529434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		C435EB8C28F7866600529434 /* FirebaseFirestoreSwift */ = {
+		C4178C2D28F8E149001A0C78 /* FirebaseFirestoreSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C435EB8728F7866600529434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
 		};
-		C435EB8E28F7866600529434 /* FirebaseRemoteConfigSwift */ = {
+		C4178C2F28F8E149001A0C78 /* FirebaseRemoteConfigSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C435EB8728F7866600529434 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseRemoteConfigSwift;

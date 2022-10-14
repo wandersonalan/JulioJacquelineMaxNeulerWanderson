@@ -12,8 +12,8 @@ import Firebase
 final class ListTableViewController: UITableViewController {
 
 	// MARK: - Properties
-	private let collection = "shoppingList"
-	private var shoppingList: [ShoppingItem] = []
+	private let collection = "donationList"
+	private var donationList: [DonationItem] = []
 	private lazy var firestore: Firestore = {
 		let settings = FirestoreSettings()
 		settings.isPersistenceEnabled = true
@@ -29,9 +29,11 @@ final class ListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		if let user = Auth.auth().currentUser, let displayName = user.displayName {
-			title = "Compras do \(displayName)"
-		}
+        title = "Lista de Doações"
+        
+//		if let user = Auth.auth().currentUser, let displayName = user.displayName {
+//			title = "Compras do \(displayName)"
+//		}
 		
 		navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Sair",
 														   style: .plain,
@@ -73,39 +75,39 @@ final class ListTableViewController: UITableViewController {
 	}
 	
 	private func showItemsFrom(snapshot: QuerySnapshot) {
-		shoppingList.removeAll()
+		donationList.removeAll()
 		for document in snapshot.documents {
 			let id = document.documentID
 			let data = document.data()
 			let name = data["name"] as? String ?? "---"
-			let quantity = data["quantity"] as? Int ?? 0
-			let shoppingItem = ShoppingItem(id: id, name: name, quantity: quantity)
-			shoppingList.append(shoppingItem)
+			let telefone = data["telefone"] as? Int ?? 0
+			let donationItem = DonationItem(id: id, name: name, telefone: telefone)
+			donationList.append(donationItem)
 		}
 		tableView.reloadData()
 	}
 	
-	private func showAlertForItem(_ item: ShoppingItem?) {
-		let alert = UIAlertController(title: "Produto", message: "Entre com as informações do produto abaixo", preferredStyle: .alert)
+	private func showAlertForItem(_ item: DonationItem?) {
+		let alert = UIAlertController(title: "Brinquedo", message: "Entre com as informações do brinquedo abaixo", preferredStyle: .alert)
 		
 		alert.addTextField { textField in
-			textField.placeholder = "Nome"
+			textField.placeholder = "Nome do Brinquedo"
 			textField.text = item?.name
 		}
 		alert.addTextField { textField in
-			textField.placeholder = "Quantidade"
+			textField.placeholder = "Telefone do doador"
 			textField.keyboardType = .numberPad
-			textField.text = item?.quantity.description
+			textField.text = item?.telefone.description
 		}
 		
 		let okAction = UIAlertAction(title: "OK", style: .default) { _ in
 			guard let name = alert.textFields?.first?.text,
-				  let quantityText = alert.textFields?.last?.text,
-				  let quantity = Int(quantityText) else {return}
+				  let telefoneText = alert.textFields?.last?.text,
+				  let telefone = Int(telefoneText) else {return}
 			
 			let data: [String: Any] = [
 				"name": name,
-				"quantity": quantity
+				"telefone": telefone
 			]
 			
 			if let item = item {
@@ -127,26 +129,26 @@ final class ListTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return shoppingList.count
+		return donationList.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-		let shoppingItem = shoppingList[indexPath.row]
-		cell.textLabel?.text = shoppingItem.name
-		cell.detailTextLabel?.text = "\(shoppingItem.quantity)"
+		let donationItem = donationList[indexPath.row]
+		cell.textLabel?.text = donationItem.name
+		cell.detailTextLabel?.text = "\(donationItem.telefone)"
         return cell
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		let shoppingItem = shoppingList[indexPath.row]
-		showAlertForItem(shoppingItem)
+		let donationItem = donationList[indexPath.row]
+		showAlertForItem(donationItem)
     }
 	
 	override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
 		if editingStyle == .delete {
-			let shoppingItem = shoppingList[indexPath.row]
-			firestore.collection(collection).document(shoppingItem.id).delete()
+			let donationItem = donationList[indexPath.row]
+			firestore.collection(collection).document(donationItem.id).delete()
 		}
 	}
     

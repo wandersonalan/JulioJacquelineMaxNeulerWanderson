@@ -1,5 +1,5 @@
 //
-//  ShoppingItem.swift
+//  DonationItem.swift
 //  ShoppingList
 //
 //  Created by Alves Brito, Eric(AWF) on 28/06/22.
@@ -8,8 +8,8 @@
 
 import Foundation
 
-struct ShoppingItem {
+struct DonationItem {
 	let id: String
 	let name: String
-	let quantity: Int
+	let telefone: Int
 }
