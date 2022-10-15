@@ -1,9 +1,9 @@
 //
 //  TableViewController.swift
-//  ShoppingList
+//  JulioJacquelineMaxNeulerWanderson
 //
-//  Created by Eric Alves Brito.
-//  Copyright © 2020 FIAP. All rights reserved.
+//  Created by ulioJacquelineMaxNeulerWanderson
+//  Copyright © 2020 1MOBRBB-2022. All rights reserved.
 //
 
 import UIKit

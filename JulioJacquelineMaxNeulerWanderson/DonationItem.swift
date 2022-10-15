@@ -1,9 +1,9 @@
 //
 //  DonationItem.swift
-//  ShoppingList
+//  JulioJacquelineMaxNeulerWanderson
 //
-//  Created by Alves Brito, Eric(AWF) on 28/06/22.
-//  Copyright © 2022 FIAP. All rights reserved.
+//  Created by ulioJacquelineMaxNeulerWanderson
+//  Copyright © 2020 1MOBRBB-2022. All rights reserved.
 //
 
 import Foundation
