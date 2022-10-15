@@ -13,12 +13,12 @@
 		22EB27C3252FBA0100996F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EB27C2252FBA0100996F13 /* Assets.xcassets */; };
 		22EB27C6252FBA0100996F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EB27C4252FBA0100996F13 /* LaunchScreen.storyboard */; };
 		22EB27CE252FBAB100996F13 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB27CD252FBAB100996F13 /* ListTableViewController.swift */; };
-		C4178C2528F8DDC4001A0C78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4178C2428F8DDC4001A0C78 /* GoogleService-Info.plist */; };
 		C4178C2A28F8E149001A0C78 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2928F8E149001A0C78 /* FirebaseAnalyticsSwift */; };
 		C4178C2C28F8E149001A0C78 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2B28F8E149001A0C78 /* FirebaseAuth */; };
 		C4178C2E28F8E149001A0C78 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2D28F8E149001A0C78 /* FirebaseFirestoreSwift */; };
 		C4178C3028F8E149001A0C78 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C4178C2F28F8E149001A0C78 /* FirebaseRemoteConfigSwift */; };
 		C4279D3128F793DC00F25369 /* DonationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4279D3028F793DC00F25369 /* DonationItem.swift */; };
+		C4DDC1DB28FB66130026855D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4DDC1DA28FB66130026855D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		22EB27C2252FBA0100996F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22EB27C5252FBA0100996F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22EB27CD252FBAB100996F13 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		C4178C2428F8DDC4001A0C78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4279D3028F793DC00F25369 /* DonationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationItem.swift; sourceTree = "<group>"; };
 		C42AF17B28F8E38E00A96BC5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C42AF17D28F8E3FF00A96BC5 /* JulioJacquelineMaxNeulerWanderson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JulioJacquelineMaxNeulerWanderson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DDC1D928FB65980026855D /* JulioJacquelineMaxNeulerWanderson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JulioJacquelineMaxNeulerWanderson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DDC1DA28FB66130026855D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				22EB27B8252FB9FD00996F13 /* JulioJacquelineMaxNeulerWanderson */,
-				C42AF17D28F8E3FF00A96BC5 /* JulioJacquelineMaxNeulerWanderson.app */,
+				C4DDC1D928FB65980026855D /* JulioJacquelineMaxNeulerWanderson.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +67,8 @@
 				22EB27C2252FBA0100996F13 /* Assets.xcassets */,
 				22EB27C4252FBA0100996F13 /* LaunchScreen.storyboard */,
 				C4279D3028F793DC00F25369 /* DonationItem.swift */,
+				C4DDC1DA28FB66130026855D /* GoogleService-Info.plist */,
 				C42AF17B28F8E38E00A96BC5 /* Info.plist */,
-				C4178C2428F8DDC4001A0C78 /* GoogleService-Info.plist */,
 			);
 			path = JulioJacquelineMaxNeulerWanderson;
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 				C4178C2F28F8E149001A0C78 /* FirebaseRemoteConfigSwift */,
 			);
 			productName = ShoppingList;
-			productReference = C42AF17D28F8E3FF00A96BC5 /* JulioJacquelineMaxNeulerWanderson.app */;
+			productReference = C4DDC1D928FB65980026855D /* JulioJacquelineMaxNeulerWanderson.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EB27C6252FBA0100996F13 /* LaunchScreen.storyboard in Resources */,
-				C4178C2528F8DDC4001A0C78 /* GoogleService-Info.plist in Resources */,
+				C4DDC1DB28FB66130026855D /* GoogleService-Info.plist in Resources */,
 				22EB27C3252FBA0100996F13 /* Assets.xcassets in Resources */,
 				22EB27C1252FB9FD00996F13 /* Main.storyboard in Resources */,
 			);

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="but-U1-aLk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="but-U1-aLk">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,13 +12,13 @@
         <!--Bem-Vindo-->
         <scene sceneID="iYm-Cs-8Ca">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="IPv-Ui-YwO" customClass="LoginViewController" customModule="ShoppingList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="IPv-Ui-YwO" customClass="LoginViewController" customModule="JulioJacquelineMaxNeulerWanderson" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMV-LD-4pl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="ZYM-sV-cZS">
-                                <rect key="frame" x="40" y="150" width="295" height="225"/>
+                                <rect key="frame" x="40" y="153" width="295" height="228"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kte-PA-46j">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="34"/>
@@ -55,7 +55,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHg-Pc-VmE">
-                                        <rect key="frame" x="0.0" y="198" width="295" height="27"/>
+                                        <rect key="frame" x="0.0" y="198" width="295" height="30"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                         <color key="tintColor" systemColor="systemGreenColor"/>
                                         <state key="normal" title="Criar conta">
@@ -97,36 +97,36 @@
             </objects>
             <point key="canvasLocation" x="899" y="127"/>
         </scene>
-        <!--Lista de Compras-->
+        <!--Lista de Doação-->
         <scene sceneID="bR4-Rg-EAi">
             <objects>
-                <tableViewController storyboardIdentifier="ListTableViewController" id="ncC-A9-xRR" customClass="ListTableViewController" customModule="ShoppingList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ListTableViewController" id="ncC-A9-xRR" customClass="ListTableViewController" customModule="JulioJacquelineMaxNeulerWanderson" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="TgH-D3-mRs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="Y1L-5T-5NL">
-                            <rect key="frame" x="0.0" y="111" width="375" height="1"/>
+                            <rect key="frame" x="0.0" y="121.66666793823242" width="375" height="1"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="7Kv-AT-Fb0" detailTextLabel="dZg-QI-62z" style="IBUITableViewCellStyleValue1" id="eqJ-rD-7uv">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eqJ-rD-7uv" id="wwd-wj-eaB">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Kv-AT-Fb0">
-                                            <rect key="frame" x="16" y="11.999999999999998" width="33" height="20.333333333333332"/>
+                                            <rect key="frame" x="20" y="11.999999999999998" width="33" height="20.333333333333332"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dZg-QI-62z">
-                                            <rect key="frame" x="315.33333333333331" y="11.999999999999998" width="43.666666666666664" height="20.333333333333332"/>
+                                            <rect key="frame" x="311.33333333333331" y="11.999999999999998" width="43.666666666666664" height="20.333333333333332"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -141,7 +141,7 @@
                             <outlet property="delegate" destination="ncC-A9-xRR" id="QLm-PF-NLo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Lista de Compras" id="kAf-c9-abQ">
+                    <navigationItem key="navigationItem" title="Lista de Doação" id="kAf-c9-abQ">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="1Jq-Om-ByA">
                             <connections>
                                 <action selector="addItem:" destination="ncC-A9-xRR" id="qwV-4b-Cdr"/>
@@ -157,11 +157,10 @@
         <!--Navigation Controller-->
         <scene sceneID="K0X-cX-b2a">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="joU-Hr-WAs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="but-U1-aLk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="e0o-TV-hqy">
-                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="47" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -169,6 +168,7 @@
                         <segue destination="IPv-Ui-YwO" kind="relationship" relationship="rootViewController" id="CF8-YB-5Yu"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="joU-Hr-WAs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
