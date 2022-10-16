@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>369011067034-fff28hlemhiu1mstl4c7enjpi55nr4h4.apps.googleusercontent.com</string>
+	<string>277828748767-6f97jaisdv411b9lfpmtmm899sqd91sa.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.369011067034-fff28hlemhiu1mstl4c7enjpi55nr4h4</string>
+	<string>com.googleusercontent.apps.277828748767-6f97jaisdv411b9lfpmtmm899sqd91sa</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDiX0DP34IBYaNrpCTgVrlooQie_2EQGIY</string>
+	<string>AIzaSyCPDda1HZIUHeBLVgsS3XQvGHD1bj3QBlg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>369011067034</string>
+	<string>277828748767</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>br.com.fiap.JulioJacquelineMaxNeulerWanderson</string>
 	<key>PROJECT_ID</key>
-	<string>doafelizfiap</string>
+	<string>novodoafeliz</string>
 	<key>STORAGE_BUCKET</key>
-	<string>doafelizfiap.appspot.com</string>
+	<string>novodoafeliz.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:369011067034:ios:dcb2634f303b6a22fab723</string>
+	<string>1:277828748767:ios:46b2461d40302280b9306a</string>
 </dict>
 </plist>
